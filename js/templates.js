@@ -15,10 +15,10 @@ class Component extends DCLogic {
   renderVals() {
     var self = this;
     var T = {
-      ru: { address: 'Дорогие Давид и Мария', names: 'Георгий и Лана', hdate: '13 Шват 5787', hint: 'Нажмите на печать, чтобы открыть приглашение', skip: 'Пропустить', openLabel: 'Открыть конверт', invite: 'Приглашаем вас разделить с нами день нашей свадьбы', cta: 'Подтвердить участие', rsvpBy: 'Пожалуйста, ответьте до 15.11.2026' },
-      en: { address: 'Dear David and Maria', names: 'George & Lana', hdate: '13 Shevat 5787', hint: 'Tap the seal to open your invitation', skip: 'Skip', openLabel: 'Open the envelope', invite: 'We invite you to share our wedding day with us', cta: 'Confirm attendance', rsvpBy: 'Kindly reply by 15.11.2026' },
-      ka: { address: 'ძვირფასო დავით და მარიამ', names: 'გიორგი და ლანა', hdate: '13 შვატი 5787', hint: 'შეეხეთ ბეჭედს, რომ გახსნათ მოსაწვევი', skip: 'გამოტოვება', openLabel: 'კონვერტის გახსნა', invite: 'გიწვევთ, გაგვიზიაროთ ჩვენი ქორწილის დღე', cta: 'დასწრების დადასტურება', rsvpBy: 'გთხოვთ, გვიპასუხოთ 15.11.2026-მდე' },
-      he: { address: 'דוד ומריה היקרים', names: 'גיאורגי ולאנה', hdate: 'י״ג שבט תשפ״ז', hint: 'לחצו על החותם כדי לפתוח את ההזמנה', skip: 'דלג', openLabel: 'פתיחת המעטפה', invite: 'אנו מזמינים אתכם לחלוק איתנו את יום חתונתנו', cta: 'אישור הגעה', rsvpBy: 'נא להשיב עד 15.11.2026' }
+      ru: { address: 'Дорогие Давид и Мария', names: 'Георгий и Лана', hdate: '13 Шват 5787', hint: 'Нажмите на печать, чтобы открыть приглашение', skip: 'Пропустить', openLabel: 'Открыть конверт', invite: 'Приглашаем вас разделить с нами день нашей свадьбы', cta: 'Подтвердить участие', rsvpBy: 'Пожалуйста, ответьте до 01.12.2026' },
+      en: { address: 'Dear David and Maria', names: 'George & Lana', hdate: '13 Shevat 5787', hint: 'Tap the seal to open your invitation', skip: 'Skip', openLabel: 'Open the envelope', invite: 'We invite you to share our wedding day with us', cta: 'Confirm attendance', rsvpBy: 'Kindly reply by 01.12.2026' },
+      ka: { address: 'ძვირფასო დავით და მარიამ', names: 'გიორგი და ლანა', hdate: '13 შვატი 5787', hint: 'შეეხეთ ბეჭედს, რომ გახსნათ მოსაწვევი', skip: 'გამოტოვება', openLabel: 'კონვერტის გახსნა', invite: 'გიწვევთ, გაგვიზიაროთ ჩვენი ქორწილის დღე', cta: 'დასწრების დადასტურება', rsvpBy: 'გთხოვთ, გვიპასუხოთ 01.12.2026-მდე' },
+      he: { address: 'דוד ומריה היקרים', names: 'גיאורגי ולאנה', hdate: 'י״ג שבט תשפ״ז', hint: 'לחצו על החותם כדי לפתוח את ההזמנה', skip: 'דלג', openLabel: 'פתיחת המעטפה', invite: 'אנו מזמינים אתכם לחלוק איתנו את יום חתונתנו', cta: 'אישור הגעה', rsvpBy: 'נא להשיב עד 01.12.2026' }
     };
     var FONT = {
       ru: { d: "'Forum', serif", b: "'Spectral', serif", hero: 44, env: 31, card: 32, italic: 'italic' },
@@ -113,10 +113,10 @@ class Component extends DCLogic {
   renderVals() {
     var self = this;
     var T = {
-      ru: { address: 'Дорогие Давид и Мария', names: 'Георгий и Лана', hdate: '13 Шват 5787', hintDesk: 'Нажмите на печать, чтобы открыть приглашение', skip: 'Пропустить', openLabel: 'Открыть конверт', invite: 'Приглашаем вас разделить с нами день нашей свадьбы', cta: 'Подтвердить участие', rsvpBy: 'Пожалуйста, ответьте до 15.11.2026' },
-      en: { address: 'Dear David and Maria', names: 'George & Lana', hdate: '13 Shevat 5787', hintDesk: 'Click the seal to open your invitation', skip: 'Skip', openLabel: 'Open the envelope', invite: 'We invite you to share our wedding day with us', cta: 'Confirm attendance', rsvpBy: 'Kindly reply by 15.11.2026' },
-      ka: { address: 'ძვირფასო დავით და მარიამ', names: 'გიორგი და ლანა', hdate: '13 შვატი 5787', hintDesk: 'დააჭირეთ ბეჭედს, რომ გახსნათ მოსაწვევი', skip: 'გამოტოვება', openLabel: 'კონვერტის გახსნა', invite: 'გიწვევთ, გაგვიზიაროთ ჩვენი ქორწილის დღე', cta: 'დასწრების დადასტურება', rsvpBy: 'გთხოვთ, გვიპასუხოთ 15.11.2026-მდე' },
-      he: { address: 'דוד ומריה היקרים', names: 'גיאורגי ולאנה', hdate: 'י״ג שבט תשפ״ז', hintDesk: 'לחצו על החותם כדי לפתוח את ההזמנה', skip: 'דלג', openLabel: 'פתיחת המעטפה', invite: 'אנו מזמינים אתכם לחלוק איתנו את יום חתונתנו', cta: 'אישור הגעה', rsvpBy: 'נא להשיב עד 15.11.2026' }
+      ru: { address: 'Дорогие Давид и Мария', names: 'Георгий и Лана', hdate: '13 Шват 5787', hintDesk: 'Нажмите на печать, чтобы открыть приглашение', skip: 'Пропустить', openLabel: 'Открыть конверт', invite: 'Приглашаем вас разделить с нами день нашей свадьбы', cta: 'Подтвердить участие', rsvpBy: 'Пожалуйста, ответьте до 01.12.2026' },
+      en: { address: 'Dear David and Maria', names: 'George & Lana', hdate: '13 Shevat 5787', hintDesk: 'Click the seal to open your invitation', skip: 'Skip', openLabel: 'Open the envelope', invite: 'We invite you to share our wedding day with us', cta: 'Confirm attendance', rsvpBy: 'Kindly reply by 01.12.2026' },
+      ka: { address: 'ძვირფასო დავით და მარიამ', names: 'გიორგი და ლანა', hdate: '13 შვატი 5787', hintDesk: 'დააჭირეთ ბეჭედს, რომ გახსნათ მოსაწვევი', skip: 'გამოტოვება', openLabel: 'კონვერტის გახსნა', invite: 'გიწვევთ, გაგვიზიაროთ ჩვენი ქორწილის დღე', cta: 'დასწრების დადასტურება', rsvpBy: 'გთხოვთ, გვიპასუხოთ 01.12.2026-მდე' },
+      he: { address: 'דוד ומריה היקרים', names: 'גיאורגי ולאנה', hdate: 'י״ג שבט תשפ״ז', hintDesk: 'לחצו על החותם כדי לפתוח את ההזמנה', skip: 'דלג', openLabel: 'פתיחת המעטפה', invite: 'אנו מזמינים אתכם לחלוק איתנו את יום חתונתנו', cta: 'אישור הגעה', rsvpBy: 'נא להשיב עד 01.12.2026' }
     };
     var FONT = {
       ru: { d: "'Forum', serif", b: "'Spectral', serif", hero: 92, env: 40, card: 46, italic: 'italic' },
@@ -233,7 +233,7 @@ class Component extends DCLogic {
         promo: 'Промокод на 20%', promoCopy: 'Скопировать промокод', promoDone: 'Промокод скопирован', unisim: 'Открыть unisim.net',
         weatherT: 'Погода в январе', weatherD: 'Днём в среднем около +7 °C, ночью около −2 °C, возможен снег. Вечером понадобится тёплое пальто.',
         moneyT: 'Обмен денег', moneyD: 'Валюта — грузинский лари. Если хотите обменять валюту, в городе курс будет выгоднее. Также практически везде можно платить картой. Оплата картами РФ недоступна.',
-        rsvpTitle: 'Подтвердите участие', rsvpBy: 'Подтвердите ваше присутствие до 15.11.2026. Это очень поможет в организации мероприятия.',
+        rsvpTitle: 'Подтвердите участие', rsvpBy: 'Подтвердите ваше присутствие до 01.12.2026. Это очень поможет в организации мероприятия.',
         nameL: 'Ваше имя и фамилия', attendL: 'Подтвердите присутствие на торжестве', yes: 'С радостью приду', no: 'К сожалению, не смогу',
         countL: 'Сколько вас будет, включая вас', guest: 'Имя гостя', send: 'Отправить ответ',
         errName: 'Укажите имя', errGuest: 'Укажите имя гостя', errAttend: 'Выберите, придёте ли вы',
@@ -263,7 +263,7 @@ class Component extends DCLogic {
         promo: 'Promo code for 20% off', promoCopy: 'Copy promo code', promoDone: 'Promo code copied', unisim: 'Open unisim.net',
         weatherT: 'Weather in January', weatherD: 'Days average around +7 °C and nights around −2 °C, and snow is possible. You will want a warm coat in the evening.',
         moneyT: 'Currency exchange', moneyD: 'The currency is the Georgian lari. If you want to exchange money, you will get a better rate in the city. You can also pay by card almost everywhere.',
-        rsvpTitle: 'Please confirm your attendance', rsvpBy: 'Please confirm your attendance by 15.11.2026. It will greatly help us with the planning.',
+        rsvpTitle: 'Please confirm your attendance', rsvpBy: 'Please confirm your attendance by 01.12.2026. It will greatly help us with the planning.',
         nameL: 'Your full name', attendL: 'Please confirm your attendance at the celebration', yes: 'Joyfully accept', no: 'Regretfully decline',
         countL: 'Number of guests, including you', guest: 'Guest name', send: 'Send reply',
         errName: 'Please enter your name', errGuest: 'Please enter the guest’s name', errAttend: 'Please choose whether you will attend',
@@ -293,7 +293,7 @@ class Component extends DCLogic {
         promo: '20%-იანი პრომოკოდი', promoCopy: 'პრომოკოდის კოპირება', promoDone: 'პრომოკოდი დაკოპირდა', unisim: 'unisim.net-ის გახსნა',
         weatherT: 'ამინდი იანვარში', weatherD: 'დღისით საშუალოდ დაახლოებით +7 °C-ია, ღამით დაახლოებით −2 °C, შესაძლებელია თოვლი. საღამოს თბილი პალტო დაგჭირდებათ.',
         moneyT: 'ფულის გადაცვლა', moneyD: 'ვალუტა — ქართული ლარი. თუ ვალუტის გადაცვლა გსურთ, ქალაქში კურსი უფრო ხელსაყრელი იქნება. ასევე თითქმის ყველგან შეგიძლიათ ბარათით გადახდა.',
-        rsvpTitle: 'გთხოვთ, დაადასტუროთ დასწრება', rsvpBy: 'გთხოვთ, დაადასტუროთ დასწრება 15.11.2026-მდე. ეს ძალიან დაგვეხმარება ღონისძიების ორგანიზებაში.',
+        rsvpTitle: 'გთხოვთ, დაადასტუროთ დასწრება', rsvpBy: 'გთხოვთ, დაადასტუროთ დასწრება 01.12.2026-მდე. ეს ძალიან დაგვეხმარება ღონისძიების ორგანიზებაში.',
         nameL: 'თქვენი სახელი და გვარი', attendL: 'დაადასტურეთ დასწრება ზეიმზე', yes: 'სიამოვნებით მოვალ', no: 'სამწუხაროდ, ვერ მოვალ',
         countL: 'სტუმრების რაოდენობა, თქვენი ჩათვლით', guest: 'სტუმრის სახელი', send: 'პასუხის გაგზავნა',
         errName: 'მიუთითეთ სახელი', errGuest: 'მიუთითეთ სტუმრის სახელი', errAttend: 'აირჩიეთ, მობრძანდებით თუ არა',
@@ -323,7 +323,7 @@ class Component extends DCLogic {
         promo: 'קוד הנחה של 20%', promoCopy: 'העתקת קוד ההנחה', promoDone: 'קוד ההנחה הועתק', unisim: 'לאתר unisim.net',
         weatherT: 'מזג האוויר בינואר', weatherD: 'ביום הטמפרטורה הממוצעת היא בערך ‎+7 °C‎ ובלילה בערך ‎−2 °C‎, וייתכן שלג. בערב תצטרכו מעיל חם.',
         moneyT: 'המרת כסף', moneyD: 'המטבע הוא לארי גאורגי. אם תרצו להמיר כסף, בעיר השער משתלם יותר. כמעט בכל מקום אפשר גם לשלם בכרטיס.',
-        rsvpTitle: 'אנא אשרו הגעה', rsvpBy: 'אנא אשרו את הגעתכם עד 15.11.2026. זה יעזור לנו מאוד בארגון האירוע.',
+        rsvpTitle: 'אנא אשרו הגעה', rsvpBy: 'אנא אשרו את הגעתכם עד 01.12.2026. זה יעזור לנו מאוד בארגון האירוע.',
         nameL: 'שם מלא', attendL: 'אשרו את השתתפותכם בחגיגה', yes: 'אגיע בשמחה', no: 'לצערי לא אוכל להגיע',
         countL: 'מספר האורחים, כולל אתכם', guest: 'שם האורח', send: 'שליחת תשובה',
         errName: 'נא למלא שם', errGuest: 'נא למלא את שם האורח', errAttend: 'נא לבחור אם תגיעו',
@@ -656,7 +656,7 @@ class Component extends DCLogic {
         promo: 'Промокод на 20%', promoCopy: 'Скопировать промокод', promoDone: 'Промокод скопирован', unisim: 'Открыть unisim.net',
         weatherT: 'Погода в январе', weatherD: 'Днём в среднем около +7 °C, ночью около −2 °C, возможен снег. Вечером понадобится тёплое пальто.',
         moneyT: 'Обмен денег', moneyD: 'Валюта — грузинский лари. Если хотите обменять валюту, в городе курс будет выгоднее. Также практически везде можно платить картой. Оплата картами РФ недоступна.',
-        rsvpTitle: 'Подтвердите участие', rsvpBy: 'Подтвердите ваше присутствие до 15.11.2026. Это очень поможет в организации мероприятия.',
+        rsvpTitle: 'Подтвердите участие', rsvpBy: 'Подтвердите ваше присутствие до 01.12.2026. Это очень поможет в организации мероприятия.',
         nameL: 'Ваше имя и фамилия', attendL: 'Подтвердите присутствие на торжестве', yes: 'С радостью приду', no: 'К сожалению, не смогу',
         countL: 'Сколько вас будет, включая вас', guest: 'Имя гостя', send: 'Отправить ответ',
         errName: 'Укажите имя', errGuest: 'Укажите имя гостя', errAttend: 'Выберите, придёте ли вы',
@@ -686,7 +686,7 @@ class Component extends DCLogic {
         promo: 'Promo code for 20% off', promoCopy: 'Copy promo code', promoDone: 'Promo code copied', unisim: 'Open unisim.net',
         weatherT: 'Weather in January', weatherD: 'Days average around +7 °C and nights around −2 °C, and snow is possible. You will want a warm coat in the evening.',
         moneyT: 'Currency exchange', moneyD: 'The currency is the Georgian lari. If you want to exchange money, you will get a better rate in the city. You can also pay by card almost everywhere.',
-        rsvpTitle: 'Please confirm your attendance', rsvpBy: 'Please confirm your attendance by 15.11.2026. It will greatly help us with the planning.',
+        rsvpTitle: 'Please confirm your attendance', rsvpBy: 'Please confirm your attendance by 01.12.2026. It will greatly help us with the planning.',
         nameL: 'Your full name', attendL: 'Please confirm your attendance at the celebration', yes: 'Joyfully accept', no: 'Regretfully decline',
         countL: 'Number of guests, including you', guest: 'Guest name', send: 'Send reply',
         errName: 'Please enter your name', errGuest: 'Please enter the guest’s name', errAttend: 'Please choose whether you will attend',
@@ -716,7 +716,7 @@ class Component extends DCLogic {
         promo: '20%-იანი პრომოკოდი', promoCopy: 'პრომოკოდის კოპირება', promoDone: 'პრომოკოდი დაკოპირდა', unisim: 'unisim.net-ის გახსნა',
         weatherT: 'ამინდი იანვარში', weatherD: 'დღისით საშუალოდ დაახლოებით +7 °C-ია, ღამით დაახლოებით −2 °C, შესაძლებელია თოვლი. საღამოს თბილი პალტო დაგჭირდებათ.',
         moneyT: 'ფულის გადაცვლა', moneyD: 'ვალუტა — ქართული ლარი. თუ ვალუტის გადაცვლა გსურთ, ქალაქში კურსი უფრო ხელსაყრელი იქნება. ასევე თითქმის ყველგან შეგიძლიათ ბარათით გადახდა.',
-        rsvpTitle: 'გთხოვთ, დაადასტუროთ დასწრება', rsvpBy: 'გთხოვთ, დაადასტუროთ დასწრება 15.11.2026-მდე. ეს ძალიან დაგვეხმარება ღონისძიების ორგანიზებაში.',
+        rsvpTitle: 'გთხოვთ, დაადასტუროთ დასწრება', rsvpBy: 'გთხოვთ, დაადასტუროთ დასწრება 01.12.2026-მდე. ეს ძალიან დაგვეხმარება ღონისძიების ორგანიზებაში.',
         nameL: 'თქვენი სახელი და გვარი', attendL: 'დაადასტურეთ დასწრება ზეიმზე', yes: 'სიამოვნებით მოვალ', no: 'სამწუხაროდ, ვერ მოვალ',
         countL: 'სტუმრების რაოდენობა, თქვენი ჩათვლით', guest: 'სტუმრის სახელი', send: 'პასუხის გაგზავნა',
         errName: 'მიუთითეთ სახელი', errGuest: 'მიუთითეთ სტუმრის სახელი', errAttend: 'აირჩიეთ, მობრძანდებით თუ არა',
@@ -746,7 +746,7 @@ class Component extends DCLogic {
         promo: 'קוד הנחה של 20%', promoCopy: 'העתקת קוד ההנחה', promoDone: 'קוד ההנחה הועתק', unisim: 'לאתר unisim.net',
         weatherT: 'מזג האוויר בינואר', weatherD: 'ביום הטמפרטורה הממוצעת היא בערך ‎+7 °C‎ ובלילה בערך ‎−2 °C‎, וייתכן שלג. בערב תצטרכו מעיל חם.',
         moneyT: 'המרת כסף', moneyD: 'המטבע הוא לארי גאורגי. אם תרצו להמיר כסף, בעיר השער משתלם יותר. כמעט בכל מקום אפשר גם לשלם בכרטיס.',
-        rsvpTitle: 'אנא אשרו הגעה', rsvpBy: 'אנא אשרו את הגעתכם עד 15.11.2026. זה יעזור לנו מאוד בארגון האירוע.',
+        rsvpTitle: 'אנא אשרו הגעה', rsvpBy: 'אנא אשרו את הגעתכם עד 01.12.2026. זה יעזור לנו מאוד בארגון האירוע.',
         nameL: 'שם מלא', attendL: 'אשרו את השתתפותכם בחגיגה', yes: 'אגיע בשמחה', no: 'לצערי לא אוכל להגיע',
         countL: 'מספר האורחים, כולל אתכם', guest: 'שם האורח', send: 'שליחת תשובה',
         errName: 'נא למלא שם', errGuest: 'נא למלא את שם האורח', errAttend: 'נא לבחור אם תגיעו',
